@@ -34,7 +34,7 @@ bindsym $mod+Shift+space 	floating toggle
 bindsym $mod+space		focus mode_toggle
 
 bindsym $mod+Escape		workspace prev
-bindsym $mod+Shift+Escape 	exec prompt "Are you sure you want to leave i3?" "i3-msg exit"
+bindsym $mod+Shift+Escape 	exec i3-msg exit
 
 bindsym $mod+Shift+BackSpace	exec prompt "Are you sure you want to reboot?" "$reboot"
 

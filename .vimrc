@@ -1,3 +1,4 @@
+filetype plugin on
 filetype on
 syntax on
 

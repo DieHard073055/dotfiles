@@ -1,0 +1,20 @@
+§ =============================================================
+§  Personal Information
+§ =============================================================
+
+SetMacro( 'AUTHOR',       'Eshan Shafeeq' )
+SetMacro( 'AUTHORREF',    '' )
+SetMacro( 'EMAIL',        'eshanshafeeq073055@gmail.com' )
+SetMacro( 'ORGANIZATION', '' )
+SetMacro( 'COMPANY',      'switchdin' )
+SetMacro( 'COPYRIGHT',    'Copyright (c) |YEAR|, |AUTHOR|' )
+SetMacro( 'LICENSE',      'GNU General Public License' )
+
+§ =============================================================
+§  Date and Time Format
+§ =============================================================
+
+§SetFormat( 'DATE', '%x' )
+§SetFormat( 'TIME', '%H:%M' )
+§SetFormat( 'YEAR', '%Y' )
+
