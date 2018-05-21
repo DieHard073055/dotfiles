@@ -162,7 +162,7 @@ makepkg -si
 
 # install i3 gaps and st
 echo "installing the rest of my programs"
-pacaur -S  powerline ttf-inconsolata ttf-linux-libertine vim-pathogen ttf-font-awesome pulseaudio pulseaudio-alsa wget i3status qutebrowser firefox  terminator dmenu rxvt-unicode
+pacaur -S  powerline ttf-inconsolata ttf-linux-libertine vim-pathogen ttf-font-awesome pulseaudio pulseaudio-alsa wget i3status qutebrowser firefox  terminator dmenu rxvt-unicode feh
 
 pacaur -S i3-gaps-next-git
 
