@@ -73,4 +73,4 @@ URxvt*scrollBar_right: false
 
 !# scrollbar style - rxvt (default), plain, next, or xterm
 !URxvt*scrollstyle: plain
-
+Xcursor.size: 16

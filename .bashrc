@@ -13,13 +13,26 @@ set -o vi
 
 # my aliases
 alias ls='ls --color=auto'
-alias rfbash="source ~/.bashrc"
 alias vi="vim"
 # alias all config files
+alias rfbash="source ~/.bashrc"
 alias bashrc="vim ~/.bashrc"
 alias vimrc="vim ~/.vimrc"
 alias i3rc="vim ~/.config/i3/config"
 alias rangerrc="vim ~/.config/ranger/rc.conf"
 alias urxvtrc="vim ~/.Xresources"
 alias rfurxvt="xrdb ~/.Xresources"
+alias djangosw="cd /home/eshan/dev/w/web/django-switchdin/switchdin; source /home/eshan/dev/w/web/django-switchdin/venv/bin/activate"
+alias pixel="/home/eshan/Android/Sdk/emulator/emulator -avd Pixel_2_XL_API_27_2"
 
+
+# exports
+# Set Editor as vim
+export REACT_EDITOR=vim
+
+export HISTSIZE=10000
+export HISTFILESIZE=20000
+shopt -s histappend
+export PROMPT_COMMAND='history -a'
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
